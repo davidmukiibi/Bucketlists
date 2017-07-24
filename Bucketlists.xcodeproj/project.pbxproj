@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		272356D91F235879007E6C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272356D81F235879007E6C38 /* AppDelegate.swift */; };
-		272356DB1F235879007E6C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272356DA1F235879007E6C38 /* ViewController.swift */; };
 		272356DE1F235879007E6C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272356DC1F235879007E6C38 /* Main.storyboard */; };
 		272356E01F235879007E6C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272356DF1F235879007E6C38 /* Assets.xcassets */; };
 		272356E31F235879007E6C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272356E11F235879007E6C38 /* LaunchScreen.storyboard */; };
 		272356EE1F235879007E6C38 /* BucketlistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272356ED1F235879007E6C38 /* BucketlistsTests.swift */; };
 		272356F91F235879007E6C38 /* BucketlistsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272356F81F235879007E6C38 /* BucketlistsUITests.swift */; };
+		272357071F2358C4007E6C38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272357061F2358C4007E6C38 /* LoginViewController.swift */; };
+		272357091F2358FD007E6C38 /* CreateBucketlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272357081F2358FD007E6C38 /* CreateBucketlistViewController.swift */; };
+		2723570A1F2358FD007E6C38 /* CreateBucketlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272357081F2358FD007E6C38 /* CreateBucketlistViewController.swift */; };
+		2723570C1F235925007E6C38 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723570B1F235925007E6C38 /* RegisterViewController.swift */; };
+		2723570D1F235925007E6C38 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2723570B1F235925007E6C38 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		272356D51F235879007E6C38 /* Bucketlists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bucketlists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		272356D81F235879007E6C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		272356DA1F235879007E6C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		272356DD1F235879007E6C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		272356DF1F235879007E6C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		272356E21F235879007E6C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		272356F41F235879007E6C38 /* BucketlistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketlistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		272356F81F235879007E6C38 /* BucketlistsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketlistsUITests.swift; sourceTree = "<group>"; };
 		272356FA1F235879007E6C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272357061F2358C4007E6C38 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		272357081F2358FD007E6C38 /* CreateBucketlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBucketlistViewController.swift; sourceTree = "<group>"; };
+		2723570B1F235925007E6C38 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				272356D81F235879007E6C38 /* AppDelegate.swift */,
-				272356DA1F235879007E6C38 /* ViewController.swift */,
+				272357061F2358C4007E6C38 /* LoginViewController.swift */,
+				272357081F2358FD007E6C38 /* CreateBucketlistViewController.swift */,
+				2723570B1F235925007E6C38 /* RegisterViewController.swift */,
 				272356DC1F235879007E6C38 /* Main.storyboard */,
 				272356DF1F235879007E6C38 /* Assets.xcassets */,
 				272356E11F235879007E6C38 /* LaunchScreen.storyboard */,
@@ -259,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				272356DB1F235879007E6C38 /* ViewController.swift in Sources */,
+				272357091F2358FD007E6C38 /* CreateBucketlistViewController.swift in Sources */,
+				2723570C1F235925007E6C38 /* RegisterViewController.swift in Sources */,
+				272357071F2358C4007E6C38 /* LoginViewController.swift in Sources */,
 				272356D91F235879007E6C38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2723570D1F235925007E6C38 /* RegisterViewController.swift in Sources */,
+				2723570A1F2358FD007E6C38 /* CreateBucketlistViewController.swift in Sources */,
 				272356EE1F235879007E6C38 /* BucketlistsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
